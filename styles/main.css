@@ -1,1 +1,77 @@
+html {
+	font-family: 'Segoe UI', 'Helvetica Neue', 'Fira Sans', 'Droid Sans', sans-serif;
+}
 
+body {
+    padding: 10px;
+    text-align: center;
+    color: #cacaca;
+    background-color: #1D1E20;
+}
+
+header {
+    display: grid;
+	margin: auto;
+}
+
+#hi {
+	font-size: 2em;
+	padding: 15px 0px;
+}
+
+header nav {
+	font-size: 1em;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+
+.nav_ul, .nav_li {
+    display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.navi_ul {
+    flex: 1;
+	max-width: 50%;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.nav_li {
+    justify-content: space-evenly;
+	padding: 10px;
+} 
+
+.container_1 {
+    background-color: brown;
+}
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #2dbf5b;
+}
+
+footer {
+    background-color: #FFA500;
+}  
+
+footer ul li{
+    display: inline;
+    list-style: none;
+}
+ 
+
+#logos {
+    
+    padding: 1.5% 2%;
+	width: 100%;
+	max-width: 50px;
+}
