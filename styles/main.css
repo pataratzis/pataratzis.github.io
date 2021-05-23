@@ -1,13 +1,20 @@
-html {
-	font-family: 'Segoe UI', 'Helvetica Neue', 'Fira Sans', 'Droid Sans', sans-serif;
-}
-
 body {
-    padding: 10px;
+	font-family: 'Segoe UI', 'Helvetica Neue', 'Fira Sans', 'Droid Sans', sans-serif;
     text-align: center;
     color: #cacaca;
     background-color: #1D1E20;
 }
+
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2dbf5b;
+}
+
+/*header*/
 
 header {
     display: grid;
@@ -19,7 +26,7 @@ header {
 	padding: 15px 0px;
 }
 
-header nav {
+.header .nav {
 	font-size: 1em;
 	justify-content: space-between;
 	padding: 20px 0px;
@@ -46,21 +53,15 @@ header nav {
 } 
 
 .container_1 {
-    background-color: brown;
-}
-
-a {
-	color: grey;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-	color: #2dbf5b;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 25px;
+    background-color: rgba(165, 42, 42, 0.527);
 }
 
 footer {
-    background-color: #FFA500;
+    background-color: #ffa600d2;
 }  
 
 footer ul li{
@@ -74,4 +75,8 @@ footer ul li{
     padding: 1.5% 2%;
 	width: 100%;
 	max-width: 50px;
+}
+
+@media(max-width:720px){
+
 }
