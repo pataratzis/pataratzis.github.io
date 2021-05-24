@@ -91,6 +91,27 @@ input[type=submit]:hover {
 	padding: 20px;
   }
 
+/***** blog *****/
+
+/* Fake image */
+img {
+	background-color: #aaa;
+	width: 50%;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+	 padding: 20px;
+	 margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
 /***** footer *****/
 
 footer {
