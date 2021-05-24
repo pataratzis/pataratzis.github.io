@@ -27,14 +27,19 @@
 
     <section class="container_1">
         <h2>Contact form</h2>
-        <p class="text_bubbles">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel tempus dui, eget
-            sagittis tortor. Cras at velit bibendum, porttitor libero quis, ullamcorper urna. Sed non augue arcu.
-            Pellentesque quis nunc quis ligula imperdiet scelerisque. Curabitur vitae elit dignissim metus iaculis
-            cursus. Ut congue, nulla eu feugiat eleifend, leo dolor tincidunt velit, id luctus risus sapien vel
-            augue.
-            Sed malesuada massa et quam porta varius eu porttitor ligula. Aliquam eleifend ipsum nunc, et dictum
-            tellus
-            tincidunt a.</p>
+        <div class="form">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Email..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </section>
 
     <footer>
